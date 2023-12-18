@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Aydın Otel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Aydın Otel</h1>
+    <nav>
+      <a href="#">Anasayfa</a>
+      <a href="#">Odalar</a>
+      <a href="#">Fiyat Listesi</a>
+      <a href="#">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <img src="images/banner.jpg" alt="Aydın Otel">
+      <h2>Aydın'da keyifli bir tatil için</h2>
+      <p>Aydın Otel, Aydın'ın merkezinde, şehrin tüm güzelliklerini keşfetmek için ideal bir konumda yer almaktadır. Otelimiz, konforlu odaları, lezzetli yemekleri ve güler yüzlü personeli ile misafirlerine unutulmaz bir tatil deneyimi yaşatmaktadır.</p>
+    </section>
+
+    <section class="rooms">
+      <h2>Odalar</h2>
+      <ul>
+        <li>
+          <img src="images/oda1.jpg" alt="Standart Oda">
+          <h3>Standart Oda</h3>
+          <p>Standart odalarımız, 18 m² genişliğinde olup, tek kişilik veya çift kişilik yatak, televizyon, mini bar, klima ve banyodan oluşmaktadır.</p>
+        </li>
+        <li>
+          <img src="images/oda2.jpg" alt="Aile Odası">
+          <h3>Aile Odası</h3>
+          <p>Aile odalarımız, 30 m² genişliğinde olup, iki adet tek kişilik yatak, bir adet çift kişilik yatak, televizyon, mini bar, klima ve banyodan oluşmaktadır.</p>
+        </li>
+        <li>
+          <img src="images/oda3.jpg" alt="Suit Oda">
+          <h3>Suit Oda</h3>
+          <p>Suit odalarımız, 50 m² genişliğinde olup, geniş bir oturma odası, yatak odası, televizyon, mini bar, klima ve banyodan oluşmaktadır.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="fiyat-listesi">
+      <h2>Fiyat Listesi</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Oda Tipi</th>
+            <th>Tek Kişilik</th>
+            <th>Çift Kişilik</th>
+            <th>Aile Odası</th>
+            <th>Suit Oda</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Standart Oda</td>
+            <td>250 TL</td>
+            <td>300 TL</td>
+            <td>400 TL</td>
+            <td>600 TL</td>
+          </tr>
+          <tr>
+            <td>Aile Odası</td>
+            <td>350 TL</td>
+            <td>400 TL</td>
+            <td>500 TL</td>
+            <td>700 TL</td>
+          </tr>
+          <tr>
+            <td>Suit Oda</td>
+            <td>500 TL</td>
+            <td>600 TL</td>
+            <td>700 TL</td>
+            <td>900 TL</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="iletisim">
+      <h2>İletişim</h2>
+      <p>Aydın Otel</p>
+      <p>Adres: Atatürk Bulvarı No: 100, Aydın</p>
+      <p>Telefon: 0256 222 22 22</p>
+      <p>E-posta: info@aydi

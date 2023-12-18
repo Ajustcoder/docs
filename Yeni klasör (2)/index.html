@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Aydın Otel</title>
+  <style type="text/css">
+  /* Genel Ayarlar */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+
+.banner h2 {
+  color: #ffffff;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Rooms */
+
+.rooms {
+  padding: 20px;
+}
+
+.rooms ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rooms li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rooms li img {
+  width: 200px;
+}
+
+.rooms li h3 {
+  font-size: 1.5em;
+}
+
+.rooms li p {
+  font-size: 1.2em;
+}
+
+/* Fiyat Listesi */
+
+.fiyat-listesi {
+  padding: 20px;
+}
+
+.fiyat-listesi table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fiyat-listesi table th, .fiyat-listesi table td {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.fiyat-listesi table th {
+  text-align: center;
+}
+
+/* İletişim */
+
+.iletisim {
+  padding: 20px;
+}
+
+.iletisim h2 {
+  font-size: 1.5em;
+}
+
+.iletisim p {
+  font-size: 1.2em;
+}
+
+/* Ekstralar */
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0000ff;
+}
+
+/* Mavi Tonlar */
+
+body {
+  background-color: #e6f9ff;
+}
+
+.banner {
+  background-image: url("images/banner.jpg");
+  background-color: #e6f9ff;
+}
+
+.rooms li {
+  background-color: #e6f9ff;
+}
+
+.fiyat-listesi {
+  background-color: #e6f9ff;
+}
+
+.iletisim {
+  background-color: #e6f9ff;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #0000ff;
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#">Anasayfa</a>
+      <a href="#">Odalar</a>
+      <a href="#">Fiyat Listesi</a>
+      <a href="#">İletişim</a>
+    </nav>
+    <div class="logo">
+      <img src="images/logo.png" alt="Aydın Otel Logosu">
+    </div>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="hero-image">
+        <img src="images/banner.jpg" alt="Aydın Otel Bannerı">
+      </div>
+      <div class="hero-content">
+        <h2>Aydın'da keyifli bir tatil için</h2>
+        <p>Aydın Otel, Aydın'ın merkezinde, şehrin tüm güzelliklerini keşfetmek için ideal bir konumda yer almaktadır. Otelimiz, konforlu odaları, lezzetli yemekleri ve güler yüzlü personeli ile misafirlerine unutulmaz bir tatil deneyimi yaşatmaktadır.</p>
+        <a href="#" class="btn btn-primary">Şimdi Rezervasyon Yapın</a>
+      </div>
+    </section>
+
+    <section class="rooms">
+      <h2>Odalar</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="room-item">
+            <img src="images/oda1.jpg" alt="Standart Oda">
+            <h3>Standart Oda</h3>
+            <p>Standart odalarımız, 18 m² genişliğinde olup, tek kişilik veya çift kişilik yatak, televizyon, mini bar, klima ve banyodan oluşmaktadır.</p>
+            <a href="#" class="btn btn-outline-primary">Daha Fazla Bilgi</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="room-item">
+            <img src="images/oda2.jpg" alt="Aile Odası">
+            <h3>Aile Odası</h3>
+            <p>Aile odalarımız, 30 m² genişliğinde olup, iki adet tek kişilik yatak, bir adet çift kişilik yatak, televizyon, mini bar, klima ve banyodan oluşmaktadır.</p>
+            <a href="#" class="btn btn-outline-primary">Daha Fazla Bilgi</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="room-item">
+            <img src="images/oda3.jpg" alt="Suit Oda">
+            <h3>Suit Oda</h3>
+            <p>Suit odalarımız, 50 m² genişliğinde olup, geniş bir oturma odası, yatak odası, televizyon, mini bar, klima ve banyodan oluşmaktadır.</p>
+            <a href="#" class="btn btn-outline-primary">Daha Fazla Bilgi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fiyat-listesi">
+      <h2>Fiyat Listesi</table>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Oda Tipi</th>
+            <th>Tek Kişilik</th>
+            <th>Çift Kişilik</th>
+            <th>Aile Odası</th>
+            <th>Suit Oda</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Standart Oda</td>
+            <td>250 TL</td>
+            <td>300 TL</td>
+            <td>400 TL</td>
+            <td>600 TL</td>
+          </tr>
+          <tr>
+            <td>Aile Odası</
